@@ -1,0 +1,24 @@
+
+Choose variable
+Plot them
+Choose any 5
+Use that in your presentation
+Write descriptions
+
+
+Time series and gifs
+Time series of 10 cities
+
+
+980-1020 surface pressure
+
+Cape variable
+Possible reasons for the convective rain in delhi
+Conditional instability and updrafts
+Download cape for June 22-27 2023 using era5 — ask it to download from amazon s3 buckets instead of cds
+
+Correlation matrix bw pollution ….
+
+Planetary boundary layer vertical height graph
+
+

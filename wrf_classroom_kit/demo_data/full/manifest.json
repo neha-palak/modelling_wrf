@@ -1,0 +1,81 @@
+{
+  "version": "synthetic-demo-1.0.0",
+  "synthetic": true,
+  "complete": true,
+  "planned_files": 12,
+  "files": {
+    "01_CTRL/wrflite_d01_2023-06-22_00-00-00.nc": {
+      "case": "01_CTRL",
+      "time": "2023-06-22_00:00:00",
+      "bytes": 813232,
+      "synthetic": true
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-22_00-00-00.nc": {
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-22_00:00:00",
+      "bytes": 856583,
+      "synthetic": true
+    },
+    "03_CLEAN/wrflite_d01_2023-06-22_00-00-00.nc": {
+      "case": "03_CLEAN",
+      "time": "2023-06-22_00:00:00",
+      "bytes": 812409,
+      "synthetic": true
+    },
+    "01_CTRL/wrflite_d01_2023-06-22_03-00-00.nc": {
+      "case": "01_CTRL",
+      "time": "2023-06-22_03:00:00",
+      "bytes": 818303,
+      "synthetic": true
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-22_03-00-00.nc": {
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-22_03:00:00",
+      "bytes": 860950,
+      "synthetic": true
+    },
+    "03_CLEAN/wrflite_d01_2023-06-22_03-00-00.nc": {
+      "case": "03_CLEAN",
+      "time": "2023-06-22_03:00:00",
+      "bytes": 817329,
+      "synthetic": true
+    },
+    "01_CTRL/wrflite_d01_2023-06-22_06-00-00.nc": {
+      "case": "01_CTRL",
+      "time": "2023-06-22_06:00:00",
+      "bytes": 817960,
+      "synthetic": true
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-22_06-00-00.nc": {
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-22_06:00:00",
+      "bytes": 860672,
+      "synthetic": true
+    },
+    "03_CLEAN/wrflite_d01_2023-06-22_06-00-00.nc": {
+      "case": "03_CLEAN",
+      "time": "2023-06-22_06:00:00",
+      "bytes": 817099,
+      "synthetic": true
+    },
+    "01_CTRL/wrflite_d01_2023-06-22_09-00-00.nc": {
+      "case": "01_CTRL",
+      "time": "2023-06-22_09:00:00",
+      "bytes": 818334,
+      "synthetic": true
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-22_09-00-00.nc": {
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-22_09:00:00",
+      "bytes": 860896,
+      "synthetic": true
+    },
+    "03_CLEAN/wrflite_d01_2023-06-22_09-00-00.nc": {
+      "case": "03_CLEAN",
+      "time": "2023-06-22_09:00:00",
+      "bytes": 817412,
+      "synthetic": true
+    }
+  },
+  "output_data_bytes": 9971179
+}

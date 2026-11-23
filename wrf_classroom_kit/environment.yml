@@ -1,0 +1,12 @@
+name: wrf-classroom
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11
+  - numpy>=1.26,<3
+  - netcdf4>=1.6.5,<2
+  - matplotlib>=3.8,<4
+  - pillow>=10,<13
+  - paramiko>=3.4,<5
+  - pip

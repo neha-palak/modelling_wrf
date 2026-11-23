@@ -1,0 +1,80 @@
+{
+  "version": "1.0.0",
+  "updated_utc": "2026-11-23T07:11:56.787655+00:00",
+  "source_complete": true,
+  "processed_records": 41,
+  "completion_scope": "selected_cases",
+  "scope_cases": [
+    "02_CTRL_NOISE"
+  ],
+  "available_records": 41,
+  "selected_records": 41,
+  "preview": false,
+  "fields": [
+    "T2",
+    "Q2",
+    "PSFC",
+    "U10",
+    "V10",
+    "TSK",
+    "PBLH",
+    "HFX",
+    "LH",
+    "SWDOWN",
+    "GLW",
+    "RAINC",
+    "RAINNC",
+    "GRDFLX",
+    "PM2_5_DRY",
+    "PM10",
+    "TOT_DUST",
+    "BC1",
+    "so2",
+    "OC1",
+    "WIND_SPEED",
+    "RAINC_RATE",
+    "RAINNC_RATE",
+    "RAIN_RATE"
+  ],
+  "errors": [],
+  "warnings": [],
+  "discovery": {
+    "ready_files": 41,
+    "ready_records": 41,
+    "deferred_files": 0,
+    "duplicate_records": 0,
+    "standalone_files": 0,
+    "manifests": [
+      {
+        "path": "/Users/nehapalak/Downloads/wrf_classroom_kit/WRF_Classroom_Work/data/full_g2_acd8e62a78_7dbe26dc/manifest.json",
+        "complete": true,
+        "planned_files": 41,
+        "listed_files": 41,
+        "local_ready_files": 41,
+        "classroom_scope": {
+          "kind": "selected_cases",
+          "selected_cases": [
+            "02_CTRL_NOISE"
+          ],
+          "parent_manifest_sha256": "7dbe26dce1f3cd4bccfcbc6b2c23973d362f390b8d472afe6be46654b9fa49b9",
+          "parent_manifest_file": "provenance/source_manifest.json",
+          "parent_complete": true,
+          "parent_planned_files": 123,
+          "parent_config_hash": "acd8e62a7838cda6ea767eb6c954228d2ebd1e7e7dedab885023ced13a555957"
+        },
+        "selected_cases": [
+          "02_CTRL_NOISE"
+        ]
+      }
+    ],
+    "complete": true,
+    "completion_scope": "selected_cases",
+    "scope_cases": [
+      "02_CTRL_NOISE"
+    ]
+  },
+  "synthetic_records": 0,
+  "vertical_products": "Physical-height plots require full levels plus PH, PHB, HGT; native level data remain in profile CSV.",
+  "rain_semantics": "Actual elapsed interval means, first interval unavailable, resets/unknown buckets masked.",
+  "city_basis": "Census 2011 final urban agglomerations and standalone cities; representative points, nearest model cells."
+}

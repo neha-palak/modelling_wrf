@@ -1,0 +1,594 @@
+{
+  "version": "1.0.0",
+  "config_hash": "acd8e62a7838cda6ea767eb6c954228d2ebd1e7e7dedab885023ced13a555957",
+  "complete": true,
+  "planned_files": 41,
+  "files": {
+    "02_CTRL_NOISE/wrflite_d01_2023-06-22_00-00-00.nc": {
+      "bytes": 130665993,
+      "sha256_payload": "d208d2bfccb61e3b171e5964b8207aa754b5480076827c50edd7a248132430d2",
+      "reused": true,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-22_00:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-22_00:00:00",
+        "index": 0,
+        "time": "2023-06-22_00:00:00",
+        "size": 453036141,
+        "mtime_ns": 1794340385571967889
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-22_03-00-00.nc": {
+      "bytes": 153926354,
+      "sha256_payload": "29ad10d9e13cf340147022349cdceacebaaf3a92c0d1633b42cb5e56f3cc1ed2",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-22_03:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-22_03:00:00",
+        "index": 0,
+        "time": "2023-06-22_03:00:00",
+        "size": 705318208,
+        "mtime_ns": 1794343663795609136
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-22_06-00-00.nc": {
+      "bytes": 155222769,
+      "sha256_payload": "254914442e5df66490fdda3b93e057cf89133d4d76355a43a8267e994c14539b",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-22_06:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-22_06:00:00",
+        "index": 0,
+        "time": "2023-06-22_06:00:00",
+        "size": 725855224,
+        "mtime_ns": 1794346901418242049
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-22_09-00-00.nc": {
+      "bytes": 156517921,
+      "sha256_payload": "e6066bfccb5ccbf658d686fb9d0cfe412d78048945929386afcc395bca0ec59e",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-22_09:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-22_09:00:00",
+        "index": 0,
+        "time": "2023-06-22_09:00:00",
+        "size": 739990597,
+        "mtime_ns": 1794349780665758398
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-22_12-00-00.nc": {
+      "bytes": 157365832,
+      "sha256_payload": "97a2fea3cf85fcdb130e05da6ece5112cf4970ee4cae0e2cd665a6d4398f244c",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-22_12:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-22_12:00:00",
+        "index": 0,
+        "time": "2023-06-22_12:00:00",
+        "size": 745857885,
+        "mtime_ns": 1794352197713076986
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-22_15-00-00.nc": {
+      "bytes": 157207152,
+      "sha256_payload": "efe763e3ddddc13f4b49286f5155168d125347675241884d84d1ba106a80fb44",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-22_15:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-22_15:00:00",
+        "index": 0,
+        "time": "2023-06-22_15:00:00",
+        "size": 742095901,
+        "mtime_ns": 1794354896891400284
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-22_18-00-00.nc": {
+      "bytes": 157623011,
+      "sha256_payload": "d7f1f3bfad0cf169d339b8b94a2f5b430297a8612301f8198e867debe8fa2e04",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-22_18:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-22_18:00:00",
+        "index": 0,
+        "time": "2023-06-22_18:00:00",
+        "size": 743377766,
+        "mtime_ns": 1794357219166563921
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-22_21-00-00.nc": {
+      "bytes": 158025369,
+      "sha256_payload": "8e9bfa25d7153a34bd5f33745a2388c891712badbeb755725f5e31062bdad4f4",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-22_21:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-22_21:00:00",
+        "index": 0,
+        "time": "2023-06-22_21:00:00",
+        "size": 743543394,
+        "mtime_ns": 1794359707183879009
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-23_00-00-00.nc": {
+      "bytes": 158656285,
+      "sha256_payload": "aee5fe7e1d0af6cc5b8b92b41fe059c72262780758841f4ab00332b964b4e1e2",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-23_00:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-23_00:00:00",
+        "index": 0,
+        "time": "2023-06-23_00:00:00",
+        "size": 745324825,
+        "mtime_ns": 1794362046404037018
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-23_03-00-00.nc": {
+      "bytes": 158303770,
+      "sha256_payload": "4863cc111ab7b58b3cc13cb7e59f55933183580f05269365fcd6493211d7b3a0",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-23_03:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-23_03:00:00",
+        "index": 0,
+        "time": "2023-06-23_03:00:00",
+        "size": 744996537,
+        "mtime_ns": 1794364709303348103
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-23_06-00-00.nc": {
+      "bytes": 157907787,
+      "sha256_payload": "80d16facf8337bf2add0ff74dab1b080c08f348bfe4e85be87bdd745b98eec6d",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-23_06:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-23_06:00:00",
+        "index": 0,
+        "time": "2023-06-23_06:00:00",
+        "size": 747309301,
+        "mtime_ns": 1794367208683538069
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-23_09-00-00.nc": {
+      "bytes": 158176926,
+      "sha256_payload": "189fa44d908cbb66439aef0ea5828b6e82b44e5fb2222de508871af762547ee6",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-23_09:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-23_09:00:00",
+        "index": 0,
+        "time": "2023-06-23_09:00:00",
+        "size": 751654604,
+        "mtime_ns": 1794369913963831633
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-23_12-00-00.nc": {
+      "bytes": 158526978,
+      "sha256_payload": "62d1cae56f7962e017f78c5cc78059031a11f14b7b8979975e82c50c65c42ea2",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-23_12:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-23_12:00:00",
+        "index": 0,
+        "time": "2023-06-23_12:00:00",
+        "size": 752176436,
+        "mtime_ns": 1794372416385183543
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-23_15-00-00.nc": {
+      "bytes": 158103482,
+      "sha256_payload": "0fc3f3ada16f64b0fb560d561dae0d68bdbcc5e3878c44a96801b9b690349f98",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-23_15:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-23_15:00:00",
+        "index": 0,
+        "time": "2023-06-23_15:00:00",
+        "size": 744608728,
+        "mtime_ns": 1794375103365553581
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-23_18-00-00.nc": {
+      "bytes": 158222669,
+      "sha256_payload": "420d53552b3b9417f7acf07caf873ad798ea6c2ddd671e9f033e788c5251940f",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-23_18:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-23_18:00:00",
+        "index": 0,
+        "time": "2023-06-23_18:00:00",
+        "size": 744576766,
+        "mtime_ns": 1794377505740718639
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-23_21-00-00.nc": {
+      "bytes": 158392771,
+      "sha256_payload": "03091a6f2dae189f29ac267b3c843073902081e16b2550c38795c862764bf652",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-23_21:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-23_21:00:00",
+        "index": 0,
+        "time": "2023-06-23_21:00:00",
+        "size": 744339425,
+        "mtime_ns": 1794380126654031534
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-24_00-00-00.nc": {
+      "bytes": 158818127,
+      "sha256_payload": "ed40bd791c99143ca459675d66de82c499da36f187217e392eea9b67cb6a1c86",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-24_00:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-24_00:00:00",
+        "index": 0,
+        "time": "2023-06-24_00:00:00",
+        "size": 745086819,
+        "mtime_ns": 1794382607169300069
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-24_03-00-00.nc": {
+      "bytes": 158585639,
+      "sha256_payload": "ada93e33d772f874c0b7c9e9a46004b393256c9f62e9a966d74c187c016f5c30",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-24_03:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-24_03:00:00",
+        "index": 0,
+        "time": "2023-06-24_03:00:00",
+        "size": 745008534,
+        "mtime_ns": 1794385458204701704
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-24_06-00-00.nc": {
+      "bytes": 158323890,
+      "sha256_payload": "a1db5d1f1314fc5c6ba86135879ddc2e57218efdd95233750370d148f237742c",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-24_06:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-24_06:00:00",
+        "index": 0,
+        "time": "2023-06-24_06:00:00",
+        "size": 745817971,
+        "mtime_ns": 1794388125232004058
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-24_09-00-00.nc": {
+      "bytes": 158537266,
+      "sha256_payload": "d7028060da8fff8e9e6bf39921d6143a77280d248bcb748fff4498528914a61c",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-24_09:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-24_09:00:00",
+        "index": 0,
+        "time": "2023-06-24_09:00:00",
+        "size": 750249508,
+        "mtime_ns": 1794390948380405441
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-24_12-00-00.nc": {
+      "bytes": 158810341,
+      "sha256_payload": "a12a62d582d5a510c9d611740cc8a570853f7245ca88fb46db90c0fae4af4908",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-24_12:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-24_12:00:00",
+        "index": 0,
+        "time": "2023-06-24_12:00:00",
+        "size": 751689106,
+        "mtime_ns": 1794393469719687916
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-24_15-00-00.nc": {
+      "bytes": 158546100,
+      "sha256_payload": "6935bf95880ed90ad15c57a026f5023d6454542b416480a8d82303883f99fc41",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-24_15:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-24_15:00:00",
+        "index": 0,
+        "time": "2023-06-24_15:00:00",
+        "size": 744917051,
+        "mtime_ns": 1794396146878003365
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-24_18-00-00.nc": {
+      "bytes": 158527781,
+      "sha256_payload": "b46bf062fe62c9a0b3d080de0900689fa4abe7dcbff684d3f4dfbe19b30b8136",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-24_18:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-24_18:00:00",
+        "index": 0,
+        "time": "2023-06-24_18:00:00",
+        "size": 744780840,
+        "mtime_ns": 1794398497719223858
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-24_21-00-00.nc": {
+      "bytes": 158571008,
+      "sha256_payload": "b2079d81acadbbcb7922d88ae23912e43c12101f1e757b841d92b7e244a9c893",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-24_21:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-24_21:00:00",
+        "index": 0,
+        "time": "2023-06-24_21:00:00",
+        "size": 744505040,
+        "mtime_ns": 1794401048257544995
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-25_00-00-00.nc": {
+      "bytes": 159002006,
+      "sha256_payload": "26e342366e222b8f483ff88a5dacc7b33fb3fb341f2f60440e01c69d292f0ea1",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-25_00:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-25_00:00:00",
+        "index": 0,
+        "time": "2023-06-25_00:00:00",
+        "size": 746429315,
+        "mtime_ns": 1794403482705835775
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-25_03-00-00.nc": {
+      "bytes": 158716794,
+      "sha256_payload": "f5c7c3bfad2b47db1352d06b71c3663c3a0aa59a5f0ed4f32bb2f6e78689eeea",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-25_03:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-25_03:00:00",
+        "index": 0,
+        "time": "2023-06-25_03:00:00",
+        "size": 747796291,
+        "mtime_ns": 1794406263562192019
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-25_06-00-00.nc": {
+      "bytes": 158360350,
+      "sha256_payload": "bce98bfbbce437b3526160ba30c27f3a65ebd574808785ded5c023738dcbf758",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-25_06:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-25_06:00:00",
+        "index": 0,
+        "time": "2023-06-25_06:00:00",
+        "size": 750919956,
+        "mtime_ns": 1794408826804455190
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-25_09-00-00.nc": {
+      "bytes": 158646718,
+      "sha256_payload": "a3f611558573def4bd86dc3effea046901a9dca6d79100919b3621daa34732dc",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-25_09:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-25_09:00:00",
+        "index": 0,
+        "time": "2023-06-25_09:00:00",
+        "size": 759040784,
+        "mtime_ns": 1794411591145836604
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-25_12-00-00.nc": {
+      "bytes": 159092183,
+      "sha256_payload": "8bd4d3578b021c401e31d0499ab3da53532c91c68dce17a0d9c57cb4993fa452",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-25_12:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-25_12:00:00",
+        "index": 0,
+        "time": "2023-06-25_12:00:00",
+        "size": 761389147,
+        "mtime_ns": 1794414134414102188
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-25_15-00-00.nc": {
+      "bytes": 158726683,
+      "sha256_payload": "b5760388b8ac991dd7dde24c5fe148519a951fd58e73577055431619706715d9",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-25_15:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-25_15:00:00",
+        "index": 0,
+        "time": "2023-06-25_15:00:00",
+        "size": 755815238,
+        "mtime_ns": 1794416856051440623
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-25_18-00-00.nc": {
+      "bytes": 158604383,
+      "sha256_payload": "1d18f67f434cc6028ff738eada018d613e639b6f6f645e6128b4b3a6ea150655",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-25_18:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-25_18:00:00",
+        "index": 0,
+        "time": "2023-06-25_18:00:00",
+        "size": 757305126,
+        "mtime_ns": 1794419124143549319
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-25_21-00-00.nc": {
+      "bytes": 158856685,
+      "sha256_payload": "41a26e781854cfe32012ff390bd58f7a2ad74ea694baa92bdeb02e36795d6ddf",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-25_21:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-25_21:00:00",
+        "index": 0,
+        "time": "2023-06-25_21:00:00",
+        "size": 760327681,
+        "mtime_ns": 1794421692518801425
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-26_00-00-00.nc": {
+      "bytes": 159439821,
+      "sha256_payload": "96e89973b1c667b19b2262150fa32232d9878fec3bd21b0923aaadc3d8966659",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-26_00:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-26_00:00:00",
+        "index": 0,
+        "time": "2023-06-26_00:00:00",
+        "size": 762822439,
+        "mtime_ns": 1794424150576018479
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-26_03-00-00.nc": {
+      "bytes": 159148523,
+      "sha256_payload": "2e819a6075b091c7f18b0d7265d178080359a097ce5d592ee4c64d1886641d9c",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-26_03:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-26_03:00:00",
+        "index": 0,
+        "time": "2023-06-26_03:00:00",
+        "size": 762089122,
+        "mtime_ns": 1794426956018500193
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-26_06-00-00.nc": {
+      "bytes": 158811577,
+      "sha256_payload": "0dec4ed31bea857c9465cb2f72110b317aeaa33d717d680f73ce5ee596f7be01",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-26_06:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-26_06:00:00",
+        "index": 0,
+        "time": "2023-06-26_06:00:00",
+        "size": 763912236,
+        "mtime_ns": 1794429473867762904
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-26_09-00-00.nc": {
+      "bytes": 158922353,
+      "sha256_payload": "2ca1be901b78d95900205d99971825b4ea4f1b1533097e2830af72ee73c07d52",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-26_09:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-26_09:00:00",
+        "index": 0,
+        "time": "2023-06-26_09:00:00",
+        "size": 769083087,
+        "mtime_ns": 1794432235720108625
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-26_12-00-00.nc": {
+      "bytes": 159286990,
+      "sha256_payload": "969f8e2f7381194dcc65c31e17aa1107686271dc0bd600e54275e8488d4e6b74",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-26_12:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-26_12:00:00",
+        "index": 0,
+        "time": "2023-06-26_12:00:00",
+        "size": 770254960,
+        "mtime_ns": 1794434794848425892
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-26_15-00-00.nc": {
+      "bytes": 158851621,
+      "sha256_payload": "ae6d2180e2393652f55166c05542e3579d32c1c192aeb6857d29fbd24ab96af0",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-26_15:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-26_15:00:00",
+        "index": 0,
+        "time": "2023-06-26_15:00:00",
+        "size": 763582633,
+        "mtime_ns": 1794437541885802236
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-26_18-00-00.nc": {
+      "bytes": 158774263,
+      "sha256_payload": "c6c7f004d6d34939847946bf64a58a758e935b8d7c0aa6bf9bd101a2d6c88559",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-26_18:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-26_18:00:00",
+        "index": 0,
+        "time": "2023-06-26_18:00:00",
+        "size": 764575229,
+        "mtime_ns": 1794439914466896084
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-26_21-00-00.nc": {
+      "bytes": 158772988,
+      "sha256_payload": "fd0f58c368950f5204939f0d7bf7645dc76921862c49000a323b5727fa90d370",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-26_21:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-26_21:00:00",
+        "index": 0,
+        "time": "2023-06-26_21:00:00",
+        "size": 766195273,
+        "mtime_ns": 1794442539971353310
+      }
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-27_00-00-00.nc": {
+      "bytes": 159139891,
+      "sha256_payload": "424ba2bd5be04e1099671611aa317bfc9784f0514da7356fb376ab8276737bf1",
+      "reused": false,
+      "case": "02_CTRL_NOISE",
+      "time": "2023-06-27_00:00:00",
+      "source": {
+        "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-27_00:00:00",
+        "index": 0,
+        "time": "2023-06-27_00:00:00",
+        "size": 768246594,
+        "mtime_ns": 1794444853121549068
+      }
+    }
+  },
+  "output_data_bytes": 6462719050,
+  "classroom_scope": {
+    "kind": "selected_cases",
+    "selected_cases": [
+      "02_CTRL_NOISE"
+    ],
+    "parent_manifest_sha256": "7dbe26dce1f3cd4bccfcbc6b2c23973d362f390b8d472afe6be46654b9fa49b9",
+    "parent_manifest_file": "provenance/source_manifest.json",
+    "parent_complete": true,
+    "parent_planned_files": 123,
+    "parent_config_hash": "acd8e62a7838cda6ea767eb6c954228d2ebd1e7e7dedab885023ced13a555957"
+  }
+}

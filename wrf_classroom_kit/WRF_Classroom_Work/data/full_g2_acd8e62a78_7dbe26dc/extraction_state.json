@@ -1,0 +1,175 @@
+{
+  "identity": {
+    "parent_manifest_sha256": "7dbe26dce1f3cd4bccfcbc6b2c23973d362f390b8d472afe6be46654b9fa49b9",
+    "config_hash": "acd8e62a7838cda6ea767eb6c954228d2ebd1e7e7dedab885023ced13a555957",
+    "selected_cases": [
+      "02_CTRL_NOISE"
+    ]
+  },
+  "files": {
+    "02_CTRL_NOISE/wrflite_d01_2023-06-22_00-00-00.nc": {
+      "bytes": 130665993,
+      "mtime_ns": 1795417579137050362
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-22_03-00-00.nc": {
+      "bytes": 153926354,
+      "mtime_ns": 1795417579183624741
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-22_06-00-00.nc": {
+      "bytes": 155222769,
+      "mtime_ns": 1795417579224910783
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-22_09-00-00.nc": {
+      "bytes": 156517921,
+      "mtime_ns": 1795417579289242120
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-22_12-00-00.nc": {
+      "bytes": 157365832,
+      "mtime_ns": 1795417579360322201
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-22_15-00-00.nc": {
+      "bytes": 157207152,
+      "mtime_ns": 1795417579430006250
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-22_18-00-00.nc": {
+      "bytes": 157623011,
+      "mtime_ns": 1795417579500804667
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-22_21-00-00.nc": {
+      "bytes": 158025369,
+      "mtime_ns": 1795417579570816839
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-23_00-00-00.nc": {
+      "bytes": 158656285,
+      "mtime_ns": 1795417579642363708
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-23_03-00-00.nc": {
+      "bytes": 158303770,
+      "mtime_ns": 1795417579712793128
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-23_06-00-00.nc": {
+      "bytes": 157907787,
+      "mtime_ns": 1795417579782623926
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-23_09-00-00.nc": {
+      "bytes": 158176926,
+      "mtime_ns": 1795417579857605271
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-23_12-00-00.nc": {
+      "bytes": 158526978,
+      "mtime_ns": 1795417579932221160
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-23_15-00-00.nc": {
+      "bytes": 158103482,
+      "mtime_ns": 1795417580003291825
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-23_18-00-00.nc": {
+      "bytes": 158222669,
+      "mtime_ns": 1795417580074180074
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-23_21-00-00.nc": {
+      "bytes": 158392771,
+      "mtime_ns": 1795417580149500875
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-24_00-00-00.nc": {
+      "bytes": 158818127,
+      "mtime_ns": 1795417580223358895
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-24_03-00-00.nc": {
+      "bytes": 158585639,
+      "mtime_ns": 1795417580298695446
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-24_06-00-00.nc": {
+      "bytes": 158323890,
+      "mtime_ns": 1795417580366070929
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-24_09-00-00.nc": {
+      "bytes": 158537266,
+      "mtime_ns": 1795417580437030594
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-24_12-00-00.nc": {
+      "bytes": 158810341,
+      "mtime_ns": 1795417580510192327
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-24_15-00-00.nc": {
+      "bytes": 158546100,
+      "mtime_ns": 1795417580580883869
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-24_18-00-00.nc": {
+      "bytes": 158527781,
+      "mtime_ns": 1795417580652623654
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-24_21-00-00.nc": {
+      "bytes": 158571008,
+      "mtime_ns": 1795417580725007018
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-25_00-00-00.nc": {
+      "bytes": 159002006,
+      "mtime_ns": 1795417580795900684
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-25_03-00-00.nc": {
+      "bytes": 158716794,
+      "mtime_ns": 1795417580867575302
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-25_06-00-00.nc": {
+      "bytes": 158360350,
+      "mtime_ns": 1795417580938161178
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-25_09-00-00.nc": {
+      "bytes": 158646718,
+      "mtime_ns": 1795417581012934734
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-25_12-00-00.nc": {
+      "bytes": 159092183,
+      "mtime_ns": 1795417581084471770
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-25_15-00-00.nc": {
+      "bytes": 158726683,
+      "mtime_ns": 1795417581156973299
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-25_18-00-00.nc": {
+      "bytes": 158604383,
+      "mtime_ns": 1795417581231639647
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-25_21-00-00.nc": {
+      "bytes": 158856685,
+      "mtime_ns": 1795417581302385563
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-26_00-00-00.nc": {
+      "bytes": 159439821,
+      "mtime_ns": 1795417581374268181
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-26_03-00-00.nc": {
+      "bytes": 159148523,
+      "mtime_ns": 1795417581453743869
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-26_06-00-00.nc": {
+      "bytes": 158811577,
+      "mtime_ns": 1795417581536023413
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-26_09-00-00.nc": {
+      "bytes": 158922353,
+      "mtime_ns": 1795417581610153181
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-26_12-00-00.nc": {
+      "bytes": 159286990,
+      "mtime_ns": 1795417581690492321
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-26_15-00-00.nc": {
+      "bytes": 158851621,
+      "mtime_ns": 1795417581761639694
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-26_18-00-00.nc": {
+      "bytes": 158774263,
+      "mtime_ns": 1795417581853548295
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-26_21-00-00.nc": {
+      "bytes": 158772988,
+      "mtime_ns": 1795417581974343149
+    },
+    "02_CTRL_NOISE/wrflite_d01_2023-06-27_00-00-00.nc": {
+      "bytes": 159139891,
+      "mtime_ns": 1795417582050204947
+    }
+  }
+}

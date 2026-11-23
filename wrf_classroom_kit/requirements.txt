@@ -1,0 +1,6 @@
+# Python 3.10 or newer. Colab uses its existing Python runtime.
+numpy>=1.26,<3
+netCDF4>=1.6.5,<2
+matplotlib>=3.8,<4
+Pillow>=10,<13
+paramiko>=3.4,<5

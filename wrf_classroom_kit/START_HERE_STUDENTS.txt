@@ -1,0 +1,187 @@
+WRF INDIA CLASSROOM: ONE-GROUP NOTEBOOK GUIDE
+Portable workflow for Google Colab and local VS Code
+Prepared 23 November 2026
+
+WHAT YOU NEED
+
+Download these three files from your instructor's class folder:
+
+1. WRF_Classroom_Colab.ipynb
+2. WRF_India_Classroom_Plot_Kit.zip -- use the updated student workflow version 2
+3. Your assigned group's TAR archive:
+   Group 1: 01_CTRL_lite.tar       (control)
+   Group 2: 02_CTRL_NOISE_lite.tar  (control with noise)
+   Group 3: 03_CLEAN_lite.tar      (clean experiment)
+
+Each full-level group archive is about 6 GiB. Keep the original filenames.
+Download only the group assigned by your instructor. You do not need an HPC
+account, SSH password, SCP command, or the other groups' archives for this lesson.
+
+Each group has 41 three-hourly snapshots and 39 atmospheric levels, covering
+22-27 June 2023. These files are a historical model experiment.
+
+The notebook detects Colab versus local execution, finds the kit and archive,
+prepares dependencies, and extracts your data into a separate working folder.
+It retains the original archive and preserves the scientific source values.
+
+PATH A: GOOGLE COLAB
+
+1. In your own Google Drive, create a folder named WRF_Classroom under My Drive.
+   Upload the three downloaded files into that folder using New > File upload
+   or by dragging them into the folder. Wait for the upload to finish. [1]
+
+   The files should be directly inside My Drive / WRF_Classroom. A file visible
+   only under Shared with me is not a personal copy at this location. Use your
+   own uploaded copy for this workflow.
+
+2. Open https://colab.research.google.com/ and choose Upload notebook, then open
+   WRF_Classroom_Colab.ipynb. You may also open your notebook from Drive. [2]
+
+3. Leave GROUP = None when only your assigned group is in the folder. Leave the
+   path hints blank. Run the notebook cells in order, or choose Run all for the
+   preview workflow. When Colab requests permission to connect Google Drive,
+   select the Google account that holds your files and grant access. [2]
+
+4. Read the notebook's detected paths and group. It should identify your actual
+   experiment and report 41 selected snapshots. If several groups or datasets
+   are found, select your assignment in the settings with GROUP = 1, 2, or 3,
+   then rerun the settings and discovery cells. No group is guessed when the
+   available choices are ambiguous.
+
+5. The preview plots PM2_5_DRY, so2, RAIN_RATE and WIND_SPEED at the first three
+   timestamps. For one group, expect three processed snapshots. Review the
+   preview images and messages before starting the complete record.
+
+6. In the full-record cell, change RUN_FULL = False to RUN_FULL = True, then
+   run that cell. Leave the session connected while it runs. Progress is printed.
+
+7. Find the saved results ZIP in My Drive / WRF_Classroom / RESULTS. For Group 1
+   full data, the complete-run ZIP is WRF_01_CTRL_full_complete_Plots.zip. It
+   contains figures, tables and a gallery. Download and extract it, then open
+   index.html. Keep its related folders beside it when sharing the gallery.
+
+COLAB STORAGE
+
+The TAR stays in Drive. Extracted data and plotting caches use the runtime
+folder /content/WRF_Classroom_Work. Only the packaged results are copied back to
+Drive after each successful plotting stage.
+
+Colab runtimes are temporary and have variable resource and lifetime limits.
+After a runtime is deleted, rerun the notebook setup and extraction; previously
+saved Drive results remain available. Granting Drive access is a user action
+and cannot be completed automatically by this notebook. [2]
+
+PATH B: LOCAL VS CODE
+
+1. Create a folder such as WRF_Classroom on your laptop. Put the same three
+   downloaded files directly inside it. The TAR can remain unextracted; the
+   notebook handles extraction. Keep full and surface datasets in separate
+   folders if your instructor also supplies the smaller surface product.
+
+2. Open VS Code and use File > Open Folder to open your WRF_Classroom folder.
+   Open WRF_Classroom_Colab.ipynb in that folder.
+
+3. A working Python installation and notebook kernel are required before any
+   notebook code can run. Install the Microsoft Python and Jupyter extensions
+   if needed. In the notebook's upper-right kernel selector, select a working
+   Python 3.10+ environment with ipykernel available. Python 3.11 is recommended
+   for this classroom kit. Follow VS Code's prompt if ipykernel must be installed.
+   VS Code documents this kernel selection step. [3]
+
+4. Run the cells in order. The notebook recognises local execution and does not
+   mount Google Drive. It prepares a private plotting environment when required,
+   and uses that environment to run the plotting engine. You do not need to
+   activate a Conda environment manually inside the notebook.
+
+5. Confirm your group and 41 snapshots. Review the preview, then set RUN_FULL =
+   True in the full-record cell and run it. Results are saved under the local
+   WRF_Classroom_Work folder reported by the notebook. Open index.html, or use
+   the results ZIP to hand in the complete gallery.
+
+Local storage needs include the approximately 6 GiB TAR, another approximately
+6 GiB for its extracted data, the plotting environment, and results/cache files.
+Allow additional working space. The notebook cannot select your VS Code kernel
+or install VS Code itself before a kernel is running.
+
+MAKE YOUR OWN PLOTS
+
+In the full-record cell, leave FULL_FIELDS = '' to plot all twenty primary
+fields and four derived products, or set it to your chosen comma-separated
+field names. For example:
+
+  RUN_FULL = True
+  FULL_FIELDS = 'PM2_5_DRY,PM10,so2'
+
+Run that cell again. Names are case-sensitive: so2 and PM2_5_DRY are the required
+spellings. Your choices are recorded in the output metadata.
+
+Suggested FULL_FIELDS selections:
+  Pollution: PM2_5_DRY,PM10,TOT_DUST,so2,BC1,OC1
+  Weather:   T2,Q2,PSFC,U10,V10,WIND_SPEED
+  Rainfall:  RAIN_RATE,RAINC_RATE,RAINNC_RATE
+
+The twenty primary fields are:
+  T2, Q2, PSFC, U10, V10, TSK, PBLH, HFX, LH, SWDOWN,
+  GLW, RAINC, RAINNC, GRDFLX, PM2_5_DRY, PM10,
+  TOT_DUST, BC1, so2, OC1
+
+Additional products are WIND_SPEED, RAIN_RATE, RAINC_RATE and RAINNC_RATE.
+
+All twenty primary fields have surface products. The six atmospheric fields
+PM2_5_DRY, PM10, TOT_DUST, BC1, so2 and OC1 also have vertical products when their
+physical-height support is available. The 3D plots use time, height above ground
+and field value at the selected city grid column. A student with one experiment
+can analyse that experiment; comparing all three requires the corresponding
+additional datasets.
+
+READ THE RESULTS CORRECTLY
+
+- PM2.5 is a concentration, not an AQI calculation. The default map scale is
+  0-400 micrograms/m3. Wind speed uses 0-25 m/s. Values beyond display limits
+  have an over-range colour; the numerical tables retain the source values.
+- Rainfall-rate plots are means over the preceding three-hour interval, not
+  hourly peaks. The first rate is unavailable because no earlier snapshot is
+  available. RAINC and RAINNC themselves are accumulated rainfall.
+- SO2 is displayed in ppbv. BC1 and OC1 retain micrograms/kg dry-air units and
+  describe individual model components.
+- City values come from model grid cells, not city-wide observations. A city
+  outside the model grid is reported as unavailable.
+- The notebook treats an assigned group as a complete selected dataset. It keeps
+  the original three-group metadata as provenance rather than reporting the
+  unassigned groups as failed downloads.
+
+IF AUTOMATIC DETECTION NEEDS HELP
+
+Nothing found: check that transfers finished and filenames are unchanged. Put
+the files beside the notebook or in your own Drive's WRF_Classroom folder. Use
+KIT_HINT or DATA_HINT for another location. Detection searches known folders,
+not every file in your computer or Drive.
+
+Several choices: set GROUP to your assigned group. If both full and surface
+copies or different exports remain, select the intended mode or give DATA_HINT
+for the specific archive/folder. Read the printed candidate list.
+
+Old kit: download the current student workflow version 2 ZIP with this notebook.
+An earlier ZIP without the autodetection helper is not a compatible substitute.
+
+Incomplete data, extraction error, or unavailable files: wait for downloads to
+finish and rerun. Do not rename an incomplete file to make it appear complete.
+Send the actual notebook error and detected paths to your instructor.
+
+Completion: for one group, the complete run should report 41 processed snapshots,
+complete selected data, and no processing errors. A preview normally processes
+only three snapshots and is labelled as a preview.
+
+REFERENCES
+
+[1] Google Drive Help: Upload files and folders
+https://support.google.com/drive/answer/2424368?hl=en
+
+[2] Google Colab FAQ: notebook import, Drive access, runtime persistence and limits
+https://research.google.com/colaboratory/faq.html
+
+[3] Microsoft: Jupyter Notebooks in VS Code
+https://code.visualstudio.com/docs/datascience/jupyter-notebooks
+
+Scientific definitions, display ranges, city choices and provenance are documented
+in the kit's SCIENCE.md, SOURCES.md and cities.csv.

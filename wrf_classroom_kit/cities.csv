@@ -1,0 +1,11 @@
+rank,slug,name,census_unit,population_2011,lat,lon,point_basis,source_url
+1,mumbai,Mumbai,Greater Mumbai U.A.,18394912,19.116667,72.850000,IMD Mumbai station reference point; Radiation Normals 1991-2020 page ii,https://imdpune.gov.in/library/Radiation_Normals_1991-2020.pdf
+2,delhi,Delhi,Delhi U.A.,16349831,28.583333,77.200000,IMD New Delhi station reference point; Radiation Normals 1991-2020 page ii,https://imdpune.gov.in/library/Radiation_Normals_1991-2020.pdf
+3,kolkata,Kolkata,Kolkata U.A.,14057991,22.533333,88.333333,IMD Kolkata station reference point; Radiation Normals 1991-2020 page ii,https://imdpune.gov.in/library/Radiation_Normals_1991-2020.pdf
+4,chennai,Chennai,Chennai U.A.,8653521,13.000000,80.183333,IMD Chennai station reference point; Radiation Normals 1991-2020 page ii,https://imdpune.gov.in/library/Radiation_Normals_1991-2020.pdf
+5,bengaluru,Bengaluru,Bruhat Bangalore U.A.,8520435,12.966667,77.633333,IMD Bengaluru ARU station reference point; Radiation Normals 1991-2020 page ii,https://imdpune.gov.in/library/Radiation_Normals_1991-2020.pdf
+6,hyderabad,Hyderabad,Hyderabad U.A.,7677018,17.466667,78.466667,IMD Hyderabad station reference point; Radiation Normals 1991-2020 page ii,https://imdpune.gov.in/library/Radiation_Normals_1991-2020.pdf
+7,ahmedabad,Ahmedabad,Ahmadabad U.A.,6357693,23.066667,72.633333,IMD Ahmedabad station reference point; Radiation Normals 1991-2020 page ii,https://imdpune.gov.in/library/Radiation_Normals_1991-2020.pdf
+8,pune,Pune,Pune U.A.,5057709,18.533333,73.850000,IMD Pune station reference point; Radiation Normals 1991-2020 page ii,https://imdpune.gov.in/library/Radiation_Normals_1991-2020.pdf
+9,surat,Surat,Surat U.A.,4591246,21.170240,72.831062,Surat district government published city reference point,https://surat.nic.in/how-to-reach/
+10,jaipur,Jaipur,Jaipur M.Corp.,3046163,26.900000,75.800000,IMD Jaipur station reference point; Radiation Normals 1991-2020 page ii,https://imdpune.gov.in/library/Radiation_Normals_1991-2020.pdf

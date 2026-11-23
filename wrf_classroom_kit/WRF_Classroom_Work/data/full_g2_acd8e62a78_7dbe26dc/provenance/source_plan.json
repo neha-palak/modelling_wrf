@@ -1,0 +1,1677 @@
+{
+  "config_hash": "acd8e62a7838cda6ea767eb6c954228d2ebd1e7e7dedab885023ced13a555957",
+  "config": {
+    "version": "1.0.0",
+    "root": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master",
+    "cases": [
+      "01_CTRL",
+      "02_CTRL_NOISE",
+      "03_CLEAN"
+    ],
+    "domain": "d01",
+    "vertical": "full",
+    "interval_hours": 3,
+    "anchor_hour": 0,
+    "primary_variables": [
+      "T2",
+      "Q2",
+      "PSFC",
+      "U10",
+      "V10",
+      "TSK",
+      "PBLH",
+      "HFX",
+      "LH",
+      "SWDOWN",
+      "GLW",
+      "RAINC",
+      "RAINNC",
+      "GRDFLX",
+      "PM2_5_DRY",
+      "PM10",
+      "TOT_DUST",
+      "BC1",
+      "so2",
+      "OC1"
+    ],
+    "copied_variables": [
+      "BC1",
+      "COSALPHA",
+      "F",
+      "GLW",
+      "GRDFLX",
+      "HFX",
+      "HGT",
+      "LANDMASK",
+      "LH",
+      "LU_INDEX",
+      "MAPFAC_M",
+      "OC1",
+      "P",
+      "PB",
+      "PBLH",
+      "PH",
+      "PHB",
+      "PM10",
+      "PM2_5_DRY",
+      "PSFC",
+      "P_TOP",
+      "Q2",
+      "RAINC",
+      "RAINNC",
+      "SINALPHA",
+      "SWDOWN",
+      "T2",
+      "TOT_DUST",
+      "TSK",
+      "Times",
+      "U10",
+      "V10",
+      "XLAT",
+      "XLONG",
+      "XTIME",
+      "ZNU",
+      "so2"
+    ],
+    "compression": "zlib",
+    "complevel": 4,
+    "time_semantics": "exact snapshots; no time averaging or interpolation",
+    "selected_times": [
+      "2023-06-22_00:00:00",
+      "2023-06-22_03:00:00",
+      "2023-06-22_06:00:00",
+      "2023-06-22_09:00:00",
+      "2023-06-22_12:00:00",
+      "2023-06-22_15:00:00",
+      "2023-06-22_18:00:00",
+      "2023-06-22_21:00:00",
+      "2023-06-23_00:00:00",
+      "2023-06-23_03:00:00",
+      "2023-06-23_06:00:00",
+      "2023-06-23_09:00:00",
+      "2023-06-23_12:00:00",
+      "2023-06-23_15:00:00",
+      "2023-06-23_18:00:00",
+      "2023-06-23_21:00:00",
+      "2023-06-24_00:00:00",
+      "2023-06-24_03:00:00",
+      "2023-06-24_06:00:00",
+      "2023-06-24_09:00:00",
+      "2023-06-24_12:00:00",
+      "2023-06-24_15:00:00",
+      "2023-06-24_18:00:00",
+      "2023-06-24_21:00:00",
+      "2023-06-25_00:00:00",
+      "2023-06-25_03:00:00",
+      "2023-06-25_06:00:00",
+      "2023-06-25_09:00:00",
+      "2023-06-25_12:00:00",
+      "2023-06-25_15:00:00",
+      "2023-06-25_18:00:00",
+      "2023-06-25_21:00:00",
+      "2023-06-26_00:00:00",
+      "2023-06-26_03:00:00",
+      "2023-06-26_06:00:00",
+      "2023-06-26_09:00:00",
+      "2023-06-26_12:00:00",
+      "2023-06-26_15:00:00",
+      "2023-06-26_18:00:00",
+      "2023-06-26_21:00:00",
+      "2023-06-27_00:00:00"
+    ],
+    "schema": {
+      "BC1": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "bottom_top",
+          "south_north",
+          "west_east"
+        ],
+        "sizes": [
+          null,
+          39,
+          399,
+          399
+        ],
+        "attributes": {
+          "units": "ug/kg-dryair",
+          "stagger": "",
+          "coordinates": "XLONG XLAT XTIME"
+        }
+      },
+      "COSALPHA": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "south_north",
+          "west_east"
+        ],
+        "sizes": [
+          null,
+          399,
+          399
+        ],
+        "attributes": {
+          "units": "",
+          "stagger": "",
+          "coordinates": "XLONG XLAT XTIME"
+        }
+      },
+      "F": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "south_north",
+          "west_east"
+        ],
+        "sizes": [
+          null,
+          399,
+          399
+        ],
+        "attributes": {
+          "units": "s-1",
+          "stagger": "",
+          "coordinates": "XLONG XLAT XTIME"
+        }
+      },
+      "GLW": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "south_north",
+          "west_east"
+        ],
+        "sizes": [
+          null,
+          399,
+          399
+        ],
+        "attributes": {
+          "units": "W m-2",
+          "stagger": "",
+          "coordinates": "XLONG XLAT XTIME"
+        }
+      },
+      "GRDFLX": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "south_north",
+          "west_east"
+        ],
+        "sizes": [
+          null,
+          399,
+          399
+        ],
+        "attributes": {
+          "units": "W m-2",
+          "stagger": "",
+          "coordinates": "XLONG XLAT XTIME"
+        }
+      },
+      "HFX": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "south_north",
+          "west_east"
+        ],
+        "sizes": [
+          null,
+          399,
+          399
+        ],
+        "attributes": {
+          "units": "W m-2",
+          "stagger": "",
+          "coordinates": "XLONG XLAT XTIME"
+        }
+      },
+      "HGT": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "south_north",
+          "west_east"
+        ],
+        "sizes": [
+          null,
+          399,
+          399
+        ],
+        "attributes": {
+          "units": "m",
+          "stagger": "",
+          "coordinates": "XLONG XLAT XTIME"
+        }
+      },
+      "LANDMASK": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "south_north",
+          "west_east"
+        ],
+        "sizes": [
+          null,
+          399,
+          399
+        ],
+        "attributes": {
+          "units": "",
+          "stagger": "",
+          "coordinates": "XLONG XLAT XTIME"
+        }
+      },
+      "LH": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "south_north",
+          "west_east"
+        ],
+        "sizes": [
+          null,
+          399,
+          399
+        ],
+        "attributes": {
+          "units": "W m-2",
+          "stagger": "",
+          "coordinates": "XLONG XLAT XTIME"
+        }
+      },
+      "LU_INDEX": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "south_north",
+          "west_east"
+        ],
+        "sizes": [
+          null,
+          399,
+          399
+        ],
+        "attributes": {
+          "units": "",
+          "stagger": "",
+          "coordinates": "XLONG XLAT XTIME"
+        }
+      },
+      "MAPFAC_M": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "south_north",
+          "west_east"
+        ],
+        "sizes": [
+          null,
+          399,
+          399
+        ],
+        "attributes": {
+          "units": "",
+          "stagger": "",
+          "coordinates": "XLONG XLAT XTIME"
+        }
+      },
+      "OC1": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "bottom_top",
+          "south_north",
+          "west_east"
+        ],
+        "sizes": [
+          null,
+          39,
+          399,
+          399
+        ],
+        "attributes": {
+          "units": "ug/kg-dryair",
+          "stagger": "",
+          "coordinates": "XLONG XLAT XTIME"
+        }
+      },
+      "P": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "bottom_top",
+          "south_north",
+          "west_east"
+        ],
+        "sizes": [
+          null,
+          39,
+          399,
+          399
+        ],
+        "attributes": {
+          "units": "Pa",
+          "stagger": "",
+          "coordinates": "XLONG XLAT XTIME"
+        }
+      },
+      "PB": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "bottom_top",
+          "south_north",
+          "west_east"
+        ],
+        "sizes": [
+          null,
+          39,
+          399,
+          399
+        ],
+        "attributes": {
+          "units": "Pa",
+          "stagger": "",
+          "coordinates": "XLONG XLAT XTIME"
+        }
+      },
+      "PBLH": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "south_north",
+          "west_east"
+        ],
+        "sizes": [
+          null,
+          399,
+          399
+        ],
+        "attributes": {
+          "units": "m",
+          "stagger": "",
+          "coordinates": "XLONG XLAT XTIME"
+        }
+      },
+      "PH": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "bottom_top_stag",
+          "south_north",
+          "west_east"
+        ],
+        "sizes": [
+          null,
+          40,
+          399,
+          399
+        ],
+        "attributes": {
+          "units": "m2 s-2",
+          "stagger": "Z",
+          "coordinates": "XLONG XLAT XTIME"
+        }
+      },
+      "PHB": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "bottom_top_stag",
+          "south_north",
+          "west_east"
+        ],
+        "sizes": [
+          null,
+          40,
+          399,
+          399
+        ],
+        "attributes": {
+          "units": "m2 s-2",
+          "stagger": "Z",
+          "coordinates": "XLONG XLAT XTIME"
+        }
+      },
+      "PM10": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "bottom_top",
+          "south_north",
+          "west_east"
+        ],
+        "sizes": [
+          null,
+          39,
+          399,
+          399
+        ],
+        "attributes": {
+          "units": "ug m^-3",
+          "stagger": "",
+          "coordinates": "XLONG XLAT XTIME"
+        }
+      },
+      "PM2_5_DRY": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "bottom_top",
+          "south_north",
+          "west_east"
+        ],
+        "sizes": [
+          null,
+          39,
+          399,
+          399
+        ],
+        "attributes": {
+          "units": "ug m^-3",
+          "stagger": "",
+          "coordinates": "XLONG XLAT XTIME"
+        }
+      },
+      "PSFC": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "south_north",
+          "west_east"
+        ],
+        "sizes": [
+          null,
+          399,
+          399
+        ],
+        "attributes": {
+          "units": "Pa",
+          "stagger": "",
+          "coordinates": "XLONG XLAT XTIME"
+        }
+      },
+      "P_TOP": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time"
+        ],
+        "sizes": [
+          null
+        ],
+        "attributes": {
+          "units": "Pa",
+          "stagger": ""
+        }
+      },
+      "Q2": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "south_north",
+          "west_east"
+        ],
+        "sizes": [
+          null,
+          399,
+          399
+        ],
+        "attributes": {
+          "units": "kg kg-1",
+          "stagger": "",
+          "coordinates": "XLONG XLAT XTIME"
+        }
+      },
+      "RAINC": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "south_north",
+          "west_east"
+        ],
+        "sizes": [
+          null,
+          399,
+          399
+        ],
+        "attributes": {
+          "units": "mm",
+          "stagger": "",
+          "coordinates": "XLONG XLAT XTIME"
+        }
+      },
+      "RAINNC": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "south_north",
+          "west_east"
+        ],
+        "sizes": [
+          null,
+          399,
+          399
+        ],
+        "attributes": {
+          "units": "mm",
+          "stagger": "",
+          "coordinates": "XLONG XLAT XTIME"
+        }
+      },
+      "SINALPHA": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "south_north",
+          "west_east"
+        ],
+        "sizes": [
+          null,
+          399,
+          399
+        ],
+        "attributes": {
+          "units": "",
+          "stagger": "",
+          "coordinates": "XLONG XLAT XTIME"
+        }
+      },
+      "SWDOWN": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "south_north",
+          "west_east"
+        ],
+        "sizes": [
+          null,
+          399,
+          399
+        ],
+        "attributes": {
+          "units": "W m-2",
+          "stagger": "",
+          "coordinates": "XLONG XLAT XTIME"
+        }
+      },
+      "T2": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "south_north",
+          "west_east"
+        ],
+        "sizes": [
+          null,
+          399,
+          399
+        ],
+        "attributes": {
+          "units": "K",
+          "stagger": "",
+          "coordinates": "XLONG XLAT XTIME"
+        }
+      },
+      "TOT_DUST": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "bottom_top",
+          "south_north",
+          "west_east"
+        ],
+        "sizes": [
+          null,
+          39,
+          399,
+          399
+        ],
+        "attributes": {
+          "units": "ug m^-3",
+          "stagger": "",
+          "coordinates": "XLONG XLAT XTIME"
+        }
+      },
+      "TSK": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "south_north",
+          "west_east"
+        ],
+        "sizes": [
+          null,
+          399,
+          399
+        ],
+        "attributes": {
+          "units": "K",
+          "stagger": "",
+          "coordinates": "XLONG XLAT XTIME"
+        }
+      },
+      "Times": {
+        "dtype": "|S1",
+        "dimensions": [
+          "Time",
+          "DateStrLen"
+        ],
+        "sizes": [
+          null,
+          19
+        ],
+        "attributes": {}
+      },
+      "U10": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "south_north",
+          "west_east"
+        ],
+        "sizes": [
+          null,
+          399,
+          399
+        ],
+        "attributes": {
+          "units": "m s-1",
+          "stagger": "",
+          "coordinates": "XLONG XLAT XTIME"
+        }
+      },
+      "V10": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "south_north",
+          "west_east"
+        ],
+        "sizes": [
+          null,
+          399,
+          399
+        ],
+        "attributes": {
+          "units": "m s-1",
+          "stagger": "",
+          "coordinates": "XLONG XLAT XTIME"
+        }
+      },
+      "XLAT": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "south_north",
+          "west_east"
+        ],
+        "sizes": [
+          null,
+          399,
+          399
+        ],
+        "attributes": {
+          "units": "degree_north",
+          "stagger": "",
+          "coordinates": "XLONG XLAT"
+        }
+      },
+      "XLONG": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "south_north",
+          "west_east"
+        ],
+        "sizes": [
+          null,
+          399,
+          399
+        ],
+        "attributes": {
+          "units": "degree_east",
+          "stagger": "",
+          "coordinates": "XLONG XLAT"
+        }
+      },
+      "XTIME": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time"
+        ],
+        "sizes": [
+          null
+        ],
+        "attributes": {
+          "units": "minutes since 2023-06-22 00:00:00",
+          "stagger": ""
+        }
+      },
+      "ZNU": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "bottom_top"
+        ],
+        "sizes": [
+          null,
+          39
+        ],
+        "attributes": {
+          "units": "",
+          "stagger": ""
+        }
+      },
+      "so2": {
+        "dtype": "<f4",
+        "dimensions": [
+          "Time",
+          "bottom_top",
+          "south_north",
+          "west_east"
+        ],
+        "sizes": [
+          null,
+          39,
+          399,
+          399
+        ],
+        "attributes": {
+          "units": "ppmv",
+          "stagger": "",
+          "coordinates": "XLONG XLAT XTIME"
+        }
+      }
+    },
+    "sources": {
+      "01_CTRL": [
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-22_00:00:00",
+          "index": 0,
+          "time": "2023-06-22_00:00:00",
+          "size": 440788683,
+          "mtime_ns": 1794340382701966539
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-22_03:00:00",
+          "index": 0,
+          "time": "2023-06-22_03:00:00",
+          "size": 704635114,
+          "mtime_ns": 1794343597702576077
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-22_06:00:00",
+          "index": 0,
+          "time": "2023-06-22_06:00:00",
+          "size": 725743448,
+          "mtime_ns": 1794346812543194103
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-22_09:00:00",
+          "index": 0,
+          "time": "2023-06-22_09:00:00",
+          "size": 740030730,
+          "mtime_ns": 1794349698178716776
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-22_12:00:00",
+          "index": 0,
+          "time": "2023-06-22_12:00:00",
+          "size": 745775221,
+          "mtime_ns": 1794352113891031515
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-22_15:00:00",
+          "index": 0,
+          "time": "2023-06-22_15:00:00",
+          "size": 741896442,
+          "mtime_ns": 1794354778093342682
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-22_18:00:00",
+          "index": 0,
+          "time": "2023-06-22_18:00:00",
+          "size": 743288770,
+          "mtime_ns": 1794357069713489290
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-22_21:00:00",
+          "index": 0,
+          "time": "2023-06-22_21:00:00",
+          "size": 743671734,
+          "mtime_ns": 1794359510007770829
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-23_00:00:00",
+          "index": 0,
+          "time": "2023-06-23_00:00:00",
+          "size": 744962759,
+          "mtime_ns": 1794361843675940850
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-23_03:00:00",
+          "index": 0,
+          "time": "2023-06-23_03:00:00",
+          "size": 744871111,
+          "mtime_ns": 1794364456208227679
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-23_06:00:00",
+          "index": 0,
+          "time": "2023-06-23_06:00:00",
+          "size": 747405195,
+          "mtime_ns": 1794366950788415366
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-23_09:00:00",
+          "index": 0,
+          "time": "2023-06-23_09:00:00",
+          "size": 751627525,
+          "mtime_ns": 1794369602276681005
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-23_12:00:00",
+          "index": 0,
+          "time": "2023-06-23_12:00:00",
+          "size": 752794142,
+          "mtime_ns": 1794372101844984957
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-23_15:00:00",
+          "index": 0,
+          "time": "2023-06-23_15:00:00",
+          "size": 744851177,
+          "mtime_ns": 1794374698436357330
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-23_18:00:00",
+          "index": 0,
+          "time": "2023-06-23_18:00:00",
+          "size": 744539580,
+          "mtime_ns": 1794377057150500571
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-23_21:00:00",
+          "index": 0,
+          "time": "2023-06-23_21:00:00",
+          "size": 744148043,
+          "mtime_ns": 1794379531565737578
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-24_00:00:00",
+          "index": 0,
+          "time": "2023-06-24_00:00:00",
+          "size": 745588473,
+          "mtime_ns": 1794381970727964569
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-24_03:00:00",
+          "index": 0,
+          "time": "2023-06-24_03:00:00",
+          "size": 745714121,
+          "mtime_ns": 1794384703154333784
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-24_06:00:00",
+          "index": 0,
+          "time": "2023-06-24_06:00:00",
+          "size": 745755295,
+          "mtime_ns": 1794387253477577331
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-24_09:00:00",
+          "index": 0,
+          "time": "2023-06-24_09:00:00",
+          "size": 750628335,
+          "mtime_ns": 1794390024617936588
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-24_12:00:00",
+          "index": 0,
+          "time": "2023-06-24_12:00:00",
+          "size": 751983261,
+          "mtime_ns": 1794392573554243183
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-24_15:00:00",
+          "index": 0,
+          "time": "2023-06-24_15:00:00",
+          "size": 744580656,
+          "mtime_ns": 1794395212907545268
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-24_18:00:00",
+          "index": 0,
+          "time": "2023-06-24_18:00:00",
+          "size": 743932211,
+          "mtime_ns": 1794397559452732319
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-24_21:00:00",
+          "index": 0,
+          "time": "2023-06-24_21:00:00",
+          "size": 744526121,
+          "mtime_ns": 1794400092738060576
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-25_00:00:00",
+          "index": 0,
+          "time": "2023-06-25_00:00:00",
+          "size": 746552002,
+          "mtime_ns": 1794402569468383416
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-25_03:00:00",
+          "index": 0,
+          "time": "2023-06-25_03:00:00",
+          "size": 748258729,
+          "mtime_ns": 1794405380043755325
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-25_06:00:00",
+          "index": 0,
+          "time": "2023-06-25_06:00:00",
+          "size": 751920000,
+          "mtime_ns": 1794408026096062283
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-25_09:00:00",
+          "index": 0,
+          "time": "2023-06-25_09:00:00",
+          "size": 759301190,
+          "mtime_ns": 1794410772050437551
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-25_12:00:00",
+          "index": 0,
+          "time": "2023-06-25_12:00:00",
+          "size": 761501020,
+          "mtime_ns": 1794413363834713224
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-25_15:00:00",
+          "index": 0,
+          "time": "2023-06-25_15:00:00",
+          "size": 755906758,
+          "mtime_ns": 1794416047317047408
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-25_18:00:00",
+          "index": 0,
+          "time": "2023-06-25_18:00:00",
+          "size": 757767612,
+          "mtime_ns": 1794418346680175106
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-25_21:00:00",
+          "index": 0,
+          "time": "2023-06-25_21:00:00",
+          "size": 760323958,
+          "mtime_ns": 1794420878687412372
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-26_00:00:00",
+          "index": 0,
+          "time": "2023-06-26_00:00:00",
+          "size": 762092498,
+          "mtime_ns": 1794423390230628684
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-26_03:00:00",
+          "index": 0,
+          "time": "2023-06-26_03:00:00",
+          "size": 761184013,
+          "mtime_ns": 1794426167390103005
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-26_06:00:00",
+          "index": 0,
+          "time": "2023-06-26_06:00:00",
+          "size": 763280484,
+          "mtime_ns": 1794428726575392403
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-26_09:00:00",
+          "index": 0,
+          "time": "2023-06-26_09:00:00",
+          "size": 769139989,
+          "mtime_ns": 1794431438045707485
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-26_12:00:00",
+          "index": 0,
+          "time": "2023-06-26_12:00:00",
+          "size": 770391292,
+          "mtime_ns": 1794434026073037355
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-26_15:00:00",
+          "index": 0,
+          "time": "2023-06-26_15:00:00",
+          "size": 763499969,
+          "mtime_ns": 1794436762161416582
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-26_18:00:00",
+          "index": 0,
+          "time": "2023-06-26_18:00:00",
+          "size": 764455863,
+          "mtime_ns": 1794439136912556275
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-26_21:00:00",
+          "index": 0,
+          "time": "2023-06-26_21:00:00",
+          "size": 766509465,
+          "mtime_ns": 1794441758548891329
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/01_CTRL/134062.master/wrfout_d01_2023-06-27_00:00:00",
+          "index": 0,
+          "time": "2023-06-27_00:00:00",
+          "size": 768859656,
+          "mtime_ns": 1794444289970266398
+        }
+      ],
+      "02_CTRL_NOISE": [
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-22_00:00:00",
+          "index": 0,
+          "time": "2023-06-22_00:00:00",
+          "size": 453036141,
+          "mtime_ns": 1794340385571967889
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-22_03:00:00",
+          "index": 0,
+          "time": "2023-06-22_03:00:00",
+          "size": 705318208,
+          "mtime_ns": 1794343663795609136
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-22_06:00:00",
+          "index": 0,
+          "time": "2023-06-22_06:00:00",
+          "size": 725855224,
+          "mtime_ns": 1794346901418242049
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-22_09:00:00",
+          "index": 0,
+          "time": "2023-06-22_09:00:00",
+          "size": 739990597,
+          "mtime_ns": 1794349780665758398
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-22_12:00:00",
+          "index": 0,
+          "time": "2023-06-22_12:00:00",
+          "size": 745857885,
+          "mtime_ns": 1794352197713076986
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-22_15:00:00",
+          "index": 0,
+          "time": "2023-06-22_15:00:00",
+          "size": 742095901,
+          "mtime_ns": 1794354896891400284
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-22_18:00:00",
+          "index": 0,
+          "time": "2023-06-22_18:00:00",
+          "size": 743377766,
+          "mtime_ns": 1794357219166563921
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-22_21:00:00",
+          "index": 0,
+          "time": "2023-06-22_21:00:00",
+          "size": 743543394,
+          "mtime_ns": 1794359707183879009
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-23_00:00:00",
+          "index": 0,
+          "time": "2023-06-23_00:00:00",
+          "size": 745324825,
+          "mtime_ns": 1794362046404037018
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-23_03:00:00",
+          "index": 0,
+          "time": "2023-06-23_03:00:00",
+          "size": 744996537,
+          "mtime_ns": 1794364709303348103
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-23_06:00:00",
+          "index": 0,
+          "time": "2023-06-23_06:00:00",
+          "size": 747309301,
+          "mtime_ns": 1794367208683538069
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-23_09:00:00",
+          "index": 0,
+          "time": "2023-06-23_09:00:00",
+          "size": 751654604,
+          "mtime_ns": 1794369913963831633
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-23_12:00:00",
+          "index": 0,
+          "time": "2023-06-23_12:00:00",
+          "size": 752176436,
+          "mtime_ns": 1794372416385183543
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-23_15:00:00",
+          "index": 0,
+          "time": "2023-06-23_15:00:00",
+          "size": 744608728,
+          "mtime_ns": 1794375103365553581
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-23_18:00:00",
+          "index": 0,
+          "time": "2023-06-23_18:00:00",
+          "size": 744576766,
+          "mtime_ns": 1794377505740718639
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-23_21:00:00",
+          "index": 0,
+          "time": "2023-06-23_21:00:00",
+          "size": 744339425,
+          "mtime_ns": 1794380126654031534
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-24_00:00:00",
+          "index": 0,
+          "time": "2023-06-24_00:00:00",
+          "size": 745086819,
+          "mtime_ns": 1794382607169300069
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-24_03:00:00",
+          "index": 0,
+          "time": "2023-06-24_03:00:00",
+          "size": 745008534,
+          "mtime_ns": 1794385458204701704
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-24_06:00:00",
+          "index": 0,
+          "time": "2023-06-24_06:00:00",
+          "size": 745817971,
+          "mtime_ns": 1794388125232004058
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-24_09:00:00",
+          "index": 0,
+          "time": "2023-06-24_09:00:00",
+          "size": 750249508,
+          "mtime_ns": 1794390948380405441
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-24_12:00:00",
+          "index": 0,
+          "time": "2023-06-24_12:00:00",
+          "size": 751689106,
+          "mtime_ns": 1794393469719687916
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-24_15:00:00",
+          "index": 0,
+          "time": "2023-06-24_15:00:00",
+          "size": 744917051,
+          "mtime_ns": 1794396146878003365
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-24_18:00:00",
+          "index": 0,
+          "time": "2023-06-24_18:00:00",
+          "size": 744780840,
+          "mtime_ns": 1794398497719223858
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-24_21:00:00",
+          "index": 0,
+          "time": "2023-06-24_21:00:00",
+          "size": 744505040,
+          "mtime_ns": 1794401048257544995
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-25_00:00:00",
+          "index": 0,
+          "time": "2023-06-25_00:00:00",
+          "size": 746429315,
+          "mtime_ns": 1794403482705835775
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-25_03:00:00",
+          "index": 0,
+          "time": "2023-06-25_03:00:00",
+          "size": 747796291,
+          "mtime_ns": 1794406263562192019
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-25_06:00:00",
+          "index": 0,
+          "time": "2023-06-25_06:00:00",
+          "size": 750919956,
+          "mtime_ns": 1794408826804455190
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-25_09:00:00",
+          "index": 0,
+          "time": "2023-06-25_09:00:00",
+          "size": 759040784,
+          "mtime_ns": 1794411591145836604
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-25_12:00:00",
+          "index": 0,
+          "time": "2023-06-25_12:00:00",
+          "size": 761389147,
+          "mtime_ns": 1794414134414102188
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-25_15:00:00",
+          "index": 0,
+          "time": "2023-06-25_15:00:00",
+          "size": 755815238,
+          "mtime_ns": 1794416856051440623
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-25_18:00:00",
+          "index": 0,
+          "time": "2023-06-25_18:00:00",
+          "size": 757305126,
+          "mtime_ns": 1794419124143549319
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-25_21:00:00",
+          "index": 0,
+          "time": "2023-06-25_21:00:00",
+          "size": 760327681,
+          "mtime_ns": 1794421692518801425
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-26_00:00:00",
+          "index": 0,
+          "time": "2023-06-26_00:00:00",
+          "size": 762822439,
+          "mtime_ns": 1794424150576018479
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-26_03:00:00",
+          "index": 0,
+          "time": "2023-06-26_03:00:00",
+          "size": 762089122,
+          "mtime_ns": 1794426956018500193
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-26_06:00:00",
+          "index": 0,
+          "time": "2023-06-26_06:00:00",
+          "size": 763912236,
+          "mtime_ns": 1794429473867762904
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-26_09:00:00",
+          "index": 0,
+          "time": "2023-06-26_09:00:00",
+          "size": 769083087,
+          "mtime_ns": 1794432235720108625
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-26_12:00:00",
+          "index": 0,
+          "time": "2023-06-26_12:00:00",
+          "size": 770254960,
+          "mtime_ns": 1794434794848425892
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-26_15:00:00",
+          "index": 0,
+          "time": "2023-06-26_15:00:00",
+          "size": 763582633,
+          "mtime_ns": 1794437541885802236
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-26_18:00:00",
+          "index": 0,
+          "time": "2023-06-26_18:00:00",
+          "size": 764575229,
+          "mtime_ns": 1794439914466896084
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-26_21:00:00",
+          "index": 0,
+          "time": "2023-06-26_21:00:00",
+          "size": 766195273,
+          "mtime_ns": 1794442539971353310
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/02_CTRL_NOISE/134063.master/wrfout_d01_2023-06-27_00:00:00",
+          "index": 0,
+          "time": "2023-06-27_00:00:00",
+          "size": 768246594,
+          "mtime_ns": 1794444853121549068
+        }
+      ],
+      "03_CLEAN": [
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-22_00:00:00",
+          "index": 0,
+          "time": "2023-06-22_00:00:00",
+          "size": 440579599,
+          "mtime_ns": 1794340346974950779
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-22_03:00:00",
+          "index": 0,
+          "time": "2023-06-22_03:00:00",
+          "size": 704230161,
+          "mtime_ns": 1794342054035798094
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-22_06:00:00",
+          "index": 0,
+          "time": "2023-06-22_06:00:00",
+          "size": 725829324,
+          "mtime_ns": 1794343785398669961
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-22_09:00:00",
+          "index": 0,
+          "time": "2023-06-22_09:00:00",
+          "size": 740351991,
+          "mtime_ns": 1794345654935589563
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-22_12:00:00",
+          "index": 0,
+          "time": "2023-06-22_12:00:00",
+          "size": 746165712,
+          "mtime_ns": 1794347402292512260
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-22_15:00:00",
+          "index": 0,
+          "time": "2023-06-22_15:00:00",
+          "size": 742090120,
+          "mtime_ns": 1794349227609484740
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-22_18:00:00",
+          "index": 0,
+          "time": "2023-06-22_18:00:00",
+          "size": 743562688,
+          "mtime_ns": 1794350791875274718
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-22_21:00:00",
+          "index": 0,
+          "time": "2023-06-22_21:00:00",
+          "size": 743496390,
+          "mtime_ns": 1794352457899218129
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-23_00:00:00",
+          "index": 0,
+          "time": "2023-06-23_00:00:00",
+          "size": 745066505,
+          "mtime_ns": 1794354056789000583
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-23_03:00:00",
+          "index": 0,
+          "time": "2023-06-23_03:00:00",
+          "size": 744398579,
+          "mtime_ns": 1794355892650913013
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-23_06:00:00",
+          "index": 0,
+          "time": "2023-06-23_06:00:00",
+          "size": 746878257,
+          "mtime_ns": 1794357619878764023
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-23_09:00:00",
+          "index": 0,
+          "time": "2023-06-23_09:00:00",
+          "size": 751147084,
+          "mtime_ns": 1794359473126750594
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-23_12:00:00",
+          "index": 0,
+          "time": "2023-06-23_12:00:00",
+          "size": 752144540,
+          "mtime_ns": 1794361184567628189
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-23_15:00:00",
+          "index": 0,
+          "time": "2023-06-23_15:00:00",
+          "size": 745020784,
+          "mtime_ns": 1794362975190485078
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-23_18:00:00",
+          "index": 0,
+          "time": "2023-06-23_18:00:00",
+          "size": 744295690,
+          "mtime_ns": 1794364521364258680
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-23_21:00:00",
+          "index": 0,
+          "time": "2023-06-23_21:00:00",
+          "size": 743711212,
+          "mtime_ns": 1794366208834062314
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-24_00:00:00",
+          "index": 0,
+          "time": "2023-06-24_00:00:00",
+          "size": 744855079,
+          "mtime_ns": 1794367837044837209
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-24_03:00:00",
+          "index": 0,
+          "time": "2023-06-24_03:00:00",
+          "size": 745654230,
+          "mtime_ns": 1794369691317724036
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-24_06:00:00",
+          "index": 0,
+          "time": "2023-06-24_06:00:00",
+          "size": 746159414,
+          "mtime_ns": 1794371433145562772
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-24_09:00:00",
+          "index": 0,
+          "time": "2023-06-24_09:00:00",
+          "size": 750149785,
+          "mtime_ns": 1794373296187628334
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-24_12:00:00",
+          "index": 0,
+          "time": "2023-06-24_12:00:00",
+          "size": 751502667,
+          "mtime_ns": 1794375034900520399
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-24_15:00:00",
+          "index": 0,
+          "time": "2023-06-24_15:00:00",
+          "size": 743818108,
+          "mtime_ns": 1794376861954405683
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-24_18:00:00",
+          "index": 0,
+          "time": "2023-06-24_18:00:00",
+          "size": 743497824,
+          "mtime_ns": 1794378444135189377
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-24_21:00:00",
+          "index": 0,
+          "time": "2023-06-24_21:00:00",
+          "size": 744122671,
+          "mtime_ns": 1794380243293088632
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-25_00:00:00",
+          "index": 0,
+          "time": "2023-06-25_00:00:00",
+          "size": 746272600,
+          "mtime_ns": 1794382228205100298
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-25_03:00:00",
+          "index": 0,
+          "time": "2023-06-25_03:00:00",
+          "size": 747937411,
+          "mtime_ns": 1794384443929207469
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-25_06:00:00",
+          "index": 0,
+          "time": "2023-06-25_06:00:00",
+          "size": 751153102,
+          "mtime_ns": 1794386539687228780
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-25_09:00:00",
+          "index": 0,
+          "time": "2023-06-25_09:00:00",
+          "size": 758634793,
+          "mtime_ns": 1794388754465311285
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-25_12:00:00",
+          "index": 0,
+          "time": "2023-06-25_12:00:00",
+          "size": 761562860,
+          "mtime_ns": 1794390844653352683
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-25_15:00:00",
+          "index": 0,
+          "time": "2023-06-25_15:00:00",
+          "size": 755679047,
+          "mtime_ns": 1794393022324466297
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-25_18:00:00",
+          "index": 0,
+          "time": "2023-06-25_18:00:00",
+          "size": 757547976,
+          "mtime_ns": 1794394934097408627
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-25_21:00:00",
+          "index": 0,
+          "time": "2023-06-25_21:00:00",
+          "size": 759848664,
+          "mtime_ns": 1794396984917433290
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-26_00:00:00",
+          "index": 0,
+          "time": "2023-06-26_00:00:00",
+          "size": 762104390,
+          "mtime_ns": 1794398987808481797
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-26_03:00:00",
+          "index": 0,
+          "time": "2023-06-26_03:00:00",
+          "size": 762053251,
+          "mtime_ns": 1794401231656636422
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-26_06:00:00",
+          "index": 0,
+          "time": "2023-06-26_06:00:00",
+          "size": 764042768,
+          "mtime_ns": 1794403357039773528
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-26_09:00:00",
+          "index": 0,
+          "time": "2023-06-26_09:00:00",
+          "size": 769143143,
+          "mtime_ns": 1794405603128865276
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-26_12:00:00",
+          "index": 0,
+          "time": "2023-06-26_12:00:00",
+          "size": 770418003,
+          "mtime_ns": 1794407726956915811
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-26_15:00:00",
+          "index": 0,
+          "time": "2023-06-26_15:00:00",
+          "size": 763346149,
+          "mtime_ns": 1794409818764948346
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-26_18:00:00",
+          "index": 0,
+          "time": "2023-06-26_18:00:00",
+          "size": 764059964,
+          "mtime_ns": 1794411751399914678
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-26_21:00:00",
+          "index": 0,
+          "time": "2023-06-26_21:00:00",
+          "size": 765897304,
+          "mtime_ns": 1794413684086873464
+        },
+        {
+          "path": "/nfsdata/storage/neha.palak_ug2023/wrfchem/MSA_CANDIDATE_V1/134061.master/03_CLEAN/134064.master/wrfout_d01_2023-06-27_00:00:00",
+          "index": 0,
+          "time": "2023-06-27_00:00:00",
+          "size": 768434931,
+          "mtime_ns": 1794415717865888150
+        }
+      ]
+    }
+  },
+  "planned_files_per_case": 41,
+  "planned_files_total": 123,
+  "source_history_files_bytes": 91397449133,
+  "raw_payload_bytes_per_snapshot_by_case": {
+    "01_CTRL": 264273843,
+    "02_CTRL_NOISE": 264273843,
+    "03_CLEAN": 264273843
+  },
+  "raw_payload_bytes_all_planned_snapshots": 32505682689,
+  "notes": [
+    "Payload sizes exclude NetCDF/HDF5 overhead; compressed size requires the pilot.",
+    "Source size counts discovered history files, not the entire experiment directories.",
+    "Support fields are additional to the requested primary variables.",
+    "Surface mode keeps the lowest mass layer and its two interfaces, not fixed-height air quality.",
+    "RAINC/RAINNC remain accumulated values; this tool does not compute interval rainfall."
+  ]
+}
